@@ -1,0 +1,47 @@
+{
+  "restaurants": [
+    {
+      "name": "Kolgas",
+      "position": {
+        "lat": "55.61277",
+        "long": "12.99843"
+      },
+      "address": {
+        "street": "Hans Michelsensgatan 1C",
+        "postCode": "21120",
+        "city": "MALMÖ"
+      },
+      "menuItems": [
+        {
+          "dish": "Panerad Schnitzel med potatis, skysås och grönsaker"
+        },
+        {
+          "dish": "Chili con Carne med ris och riven ost"
+        }
+      ]
+    },
+    {
+      "name": "Slagthuset",
+      "position": {
+        "lat": "55.61133",
+        "long": "13.00281"
+      },
+      "address": {
+        "street": "Carlsgatan 12E",
+        "postCode": "21120",
+        "city": "MALMÖ"
+      },
+      "menuItems": [
+        {
+          "dish": "Nattbakat anklår med vinägerfläsk, spetskål & timjanssky."
+        },
+        {
+          "dish": "Fish & chips på sejfile med skånskremoulad & citron."
+        },
+        {
+          "dish": "Indisk kryddig blomkålsgryta på kokosgrädde med chutney & yoghurt."
+        }
+      ]
+    }
+  ]
+}
