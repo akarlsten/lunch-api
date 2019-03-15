@@ -42,6 +42,26 @@
           "dish": "Indisk kryddig blomkålsgryta på kokosgrädde med chutney & yoghurt."
         }
       ]
+    },
+    {
+      "name": "In The Pink",
+      "position": {
+        "lat": "55.61018",
+        "long": "13.00015"
+      },
+      "address": {
+        "street": "Rälsplatsen 3",
+        "postCode": "21120",
+        "city": "MALMÖ"
+      },
+      "menuItems": [
+        {
+          "dish": "Vegansk  röd linssoppa med chili, vitlök, tomat, olivolja toppad med en citronyoghurt gjord på havre samt rostade pumpafrön och tångflingor."
+        },
+        {
+          "dish": "Lyxig fiskgryta med färsk torsk, vildfångad lax och musslor med grädde, saffran, lök och morötter toppad med aioli."
+        }
+      ]
     }
   ]
 }
