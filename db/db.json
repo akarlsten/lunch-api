@@ -1,4 +1,5 @@
 {
+  "date": "lördag, 16e mars",
   "restaurants": [
     {
       "name": "Kolgas",
@@ -45,6 +46,49 @@
         "city": "MALMÖ"
       },
       "menuItems": []
+    },
+    {
+      "name": "Glasklart",
+      "position": {
+        "lat": "55.61525",
+        "long": "12.99042"
+      },
+      "address": {
+        "street": "Dockplatsen 1",
+        "postCode": "21119",
+        "city": "MALMÖ"
+      },
+      "menuItems": [
+        {
+          "dish": "Klassisk wallenbergare med gröna ärtor, potatispuré, lingon och skirat smör"
+        },
+        {
+          "dish": "Fylld röd paprika med kryddig bolognese på soyafärs, gratinerad med mozzarella, serveras med mild yoghurtsås"
+        }
+      ]
+    },
+    {
+      "name": "MiaMarias",
+      "position": {
+        "lat": "55.61355",
+        "long": "12.99189"
+      },
+      "address": {
+        "street": "Isbergs gata 7",
+        "postCode": "21119",
+        "city": "MALMÖ"
+      },
+      "menuItems": [
+        {
+          "dish": "Ugnsbakad lax med kål, lök, mandel och ruccola."
+        },
+        {
+          "dish": "Långkokt högrev glaserad med paprika, senapsfrön och chili. Serveras med klyftpotatis och tomat- och melonsallad."
+        },
+        {
+          "dish": "Burgare med aubergine, halloumi, krasse och ärtkräm."
+        }
+      ]
     }
   ]
 }
