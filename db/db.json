@@ -1,8 +1,44 @@
 {
-  "date": "lördag, 16e mars",
+  "date": "onsdag, 20e mars",
   "restaurants": [
     {
+      "id": "6",
+      "name": "Niagara",
+      "emoji": "🍱",
+      "position": {
+        "lat": "55.60881",
+        "long": "12.99410"
+      },
+      "address": {
+        "street": "Neptuniplan 1",
+        "postCode": "21118",
+        "city": "MALMÖ"
+      },
+      "menuItems": [
+        {
+          "dish": "Fisk och skaldjursgryta “Bouillabaisse”, aioli, krutonger, fänkål"
+        },
+        {
+          "dish": "Gnocchi, pesto, rostad pumpa, ricotta, fröer (G, L)"
+        },
+        {
+          "dish": "Tofu pad thai, äggnudlar, jordnöt, böngroddar, fisksås (G)"
+        },
+        {
+          "dish": "Fläsk i hoisin, broccoli, pickles, ris"
+        },
+        {
+          "dish": "Varmrökt regnbågslax, potatissallad, gröna ärtor, äggmajjo, dill, citron"
+        },
+        {
+          "dish": "Morotssoppa, kokosmjölk, ingefära, chili, papadum"
+        }
+      ]
+    },
+    {
+      "id": "1",
       "name": "Kolgas",
+      "emoji": "🚚",
       "position": {
         "lat": "55.61277",
         "long": "12.99843"
@@ -12,30 +48,19 @@
         "postCode": "21120",
         "city": "MALMÖ"
       },
-      "menuItems": []
-    },
-    {
-      "name": "In The Pink",
-      "position": {
-        "lat": "55.61018",
-        "long": "13.00015"
-      },
-      "address": {
-        "street": "Rälsplatsen 3",
-        "postCode": "21120",
-        "city": "MALMÖ"
-      },
       "menuItems": [
         {
-          "dish": "Vegansk  röd linssoppa med chili, vitlök, tomat, olivolja toppad med en citronyoghurt gjord på havre samt rostade pumpafrön och tångflingor."
+          "dish": "Fransk Köttgryta med ris eller potatis och grönsaker"
         },
         {
-          "dish": "Lyxig fiskgryta med färsk torsk, vildfångad lax och musslor med grädde, saffran, lök och morötter toppad med aioli."
+          "dish": "Spagetti med köttfärssås och riven ost"
         }
       ]
     },
     {
+      "id": "2",
       "name": "Slagthuset",
+      "emoji": "🍖",
       "position": {
         "lat": "55.61133",
         "long": "13.00281"
@@ -45,10 +70,22 @@
         "postCode": "21120",
         "city": "MALMÖ"
       },
-      "menuItems": []
+      "menuItems": [
+        {
+          "dish": "Rimmad oxbringa med rotsaker, smörad pepparrotsås & picklad kålrotssallad."
+        },
+        {
+          "dish": "Ångad sejfilé med bakat ägg, brynt smör, citron & spenat."
+        },
+        {
+          "dish": "Svampfyllt pastaknyte med ruccolapesto & parmesan."
+        }
+      ]
     },
     {
+      "id": "4",
       "name": "Glasklart",
+      "emoji": "🥗",
       "position": {
         "lat": "55.61525",
         "long": "12.99042"
@@ -60,7 +97,7 @@
       },
       "menuItems": [
         {
-          "dish": "Klassisk wallenbergare med gröna ärtor, potatispuré, lingon och skirat smör"
+          "dish": "Köttfärslimpa med gräddsås, lingonsylt och pressgurka"
         },
         {
           "dish": "Fylld röd paprika med kryddig bolognese på soyafärs, gratinerad med mozzarella, serveras med mild yoghurtsås"
@@ -68,7 +105,31 @@
       ]
     },
     {
+      "id": "3",
+      "name": "In The Pink",
+      "emoji": "🍲",
+      "position": {
+        "lat": "55.61018",
+        "long": "13.00015"
+      },
+      "address": {
+        "street": "Rälsplatsen 3",
+        "postCode": "21120",
+        "city": "MALMÖ"
+      },
+      "menuItems": [
+        {
+          "dish": "Svampsoppa med grädde och färska örter toppad med knaperstekt bacon."
+        },
+        {
+          "dish": "Kikärtgryta med spenat, tomat, vitlök, kokosgrädde, garam masala, chili och gurkmeja."
+        }
+      ]
+    },
+    {
+      "id": "5",
       "name": "MiaMarias",
+      "emoji": "🥘",
       "position": {
         "lat": "55.61355",
         "long": "12.99189"
@@ -80,13 +141,13 @@
       },
       "menuItems": [
         {
-          "dish": "Ugnsbakad lax med kål, lök, mandel och ruccola."
+          "dish": "Kummel, krispig äppelsallad med fänkål och rädisor, pumpafrön, citronaioli."
         },
         {
-          "dish": "Långkokt högrev glaserad med paprika, senapsfrön och chili. Serveras med klyftpotatis och tomat- och melonsallad."
+          "dish": "Vietnamesisk gryta med, limeblad, chili, curry, böngroddar, sockerärtor och kycklingköttbullar."
         },
         {
-          "dish": "Burgare med aubergine, halloumi, krasse och ärtkräm."
+          "dish": "Tortellini fylld med karljohansvamp . Serveras med sparrissås, spenat, smörstekta champinjoner och grana padano."
         }
       ]
     }
