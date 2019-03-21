@@ -1,11 +1,9 @@
-// Runs the scraping once every 24 hrs and updates the db
-const schedule = require('node-schedule')
 const path = require('path')
 const fs = require('fs')
+
+const schedule = require('node-schedule')
 const moment = require('moment')
 
-const { db } = require(path.join(__dirname, '/lib/db/database'))
-const logStream = fs.createWriteStream(path.join(__dirname, 'log/log.txt'), { flags: 'a' })
 const {
   writeDateToDb,
   scrapeKolgas,
@@ -15,6 +13,9 @@ const {
   scrapeMiaMarias,
   scrapeNiagara
 } = require('./lib/scraper/scraper')
+
+//Basic logging
+const logStream = fs.createWriteStream(path.join(__dirname, 'log/log.txt'), { flags: 'a' })
 
 const scrapePages = () => {
   Promise.all([
@@ -32,7 +33,7 @@ const scrapePages = () => {
   })
 }
 
-// '0 5 * * *'
+// '0 5 * * *' every day at 05:00
 
 const scheduledScrape = () => {
   schedule.scheduleJob('0 5 * * *', () => {

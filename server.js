@@ -2,9 +2,10 @@ const express = require('express')
 
 const { db } = require('./lib/db/database')
 const { scheduledScrape } = require('./cron')
+
 const app = express()
 
-const restaurantData = db.get('restaurants').value()
+const restaurantData = db.value()
 
 app.get('/', async (req, res) => {
   try {
