@@ -1,6 +1,7 @@
 const path = require('path')
 const fs = require('fs')
 
+const axios = require('axios')
 const schedule = require('node-schedule')
 const moment = require('moment')
 
@@ -30,6 +31,15 @@ const scrapePages = () => {
   ]).then(() => {
     logStream.write(`${moment().format('Y/M/D - HH:mm:ss')} - Database updated!\n`)
     console.log(`Database updated! At: ${moment().format('Y/M/D - HH:mm:ss')}`)
+    axios({
+      method: 'post',
+      url: 'https://api.netlify.com/build_hooks/5c967247036b78814b6488a6',
+      data: {}
+    })
+      .then(res =>
+        console.log(`Webhook sent - rebuilding frontend! ${res.statusText} - ${res.status}`)
+      )
+      .catch(error => console.log(error))
   })
 }
 

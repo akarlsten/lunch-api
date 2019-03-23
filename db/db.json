@@ -36,30 +36,6 @@
       "menuItems": []
     },
     {
-      "id": "3",
-      "name": "In The Pink",
-      "emoji": "🍲",
-      "description": "Soppor och hotpots, ekologiskt och vegetariskt.",
-      "position": {
-        "lat": "55.61018",
-        "long": "13.00015"
-      },
-      "address": {
-        "street": "Rälsplatsen 3",
-        "postCode": "21120",
-        "city": "MALMÖ"
-      },
-      "distance": "0.2",
-      "menuItems": [
-        {
-          "dish": "Svampsoppa med grädde och färska örter toppad med knaperstekt bacon."
-        },
-        {
-          "dish": "Kikärtgryta med spenat, tomat, vitlök, kokosgrädde, garam masala, chili och gurkmeja."
-        }
-      ]
-    },
-    {
       "id": "2",
       "name": "Slagthuset",
       "emoji": "🍖",
@@ -91,6 +67,23 @@
         "city": "MALMÖ"
       },
       "distance": "0.7",
+      "menuItems": []
+    },
+    {
+      "id": "3",
+      "name": "In The Pink",
+      "emoji": "🍲",
+      "description": "Soppor och hotpots, ekologiskt och vegetariskt.",
+      "position": {
+        "lat": "55.61018",
+        "long": "13.00015"
+      },
+      "address": {
+        "street": "Rälsplatsen 3",
+        "postCode": "21120",
+        "city": "MALMÖ"
+      },
+      "distance": "0.2",
       "menuItems": []
     },
     {
