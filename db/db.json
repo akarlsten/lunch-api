@@ -1,44 +1,11 @@
 {
-  "date": "onsdag, 20e mars",
+  "date": "lördag, 23e mars",
   "restaurants": [
-    {
-      "id": "6",
-      "name": "Niagara",
-      "emoji": "🍱",
-      "position": {
-        "lat": "55.60881",
-        "long": "12.99410"
-      },
-      "address": {
-        "street": "Neptuniplan 1",
-        "postCode": "21118",
-        "city": "MALMÖ"
-      },
-      "menuItems": [
-        {
-          "dish": "Fisk och skaldjursgryta “Bouillabaisse”, aioli, krutonger, fänkål"
-        },
-        {
-          "dish": "Gnocchi, pesto, rostad pumpa, ricotta, fröer (G, L)"
-        },
-        {
-          "dish": "Tofu pad thai, äggnudlar, jordnöt, böngroddar, fisksås (G)"
-        },
-        {
-          "dish": "Fläsk i hoisin, broccoli, pickles, ris"
-        },
-        {
-          "dish": "Varmrökt regnbågslax, potatissallad, gröna ärtor, äggmajjo, dill, citron"
-        },
-        {
-          "dish": "Morotssoppa, kokosmjölk, ingefära, chili, papadum"
-        }
-      ]
-    },
     {
       "id": "1",
       "name": "Kolgas",
       "emoji": "🚚",
+      "description": "\"Gedigen\" svensk husmanskost.",
       "position": {
         "lat": "55.61277",
         "long": "12.99843"
@@ -48,19 +15,31 @@
         "postCode": "21120",
         "city": "MALMÖ"
       },
-      "menuItems": [
-        {
-          "dish": "Fransk Köttgryta med ris eller potatis och grönsaker"
-        },
-        {
-          "dish": "Spagetti med köttfärssås och riven ost"
-        }
-      ]
+      "menuItems": [],
+      "distance": "0.08"
+    },
+    {
+      "id": "6",
+      "name": "Niagara",
+      "emoji": "🍱",
+      "description": "Erbjuder både lokalproducerad husman och asiatiskt.",
+      "position": {
+        "lat": "55.60881",
+        "long": "12.99410"
+      },
+      "address": {
+        "street": "Neptuniplan 1",
+        "postCode": "21118",
+        "city": "MALMÖ"
+      },
+      "distance": "0.5",
+      "menuItems": []
     },
     {
       "id": "2",
       "name": "Slagthuset",
       "emoji": "🍖",
+      "description": "Modern och närproducerad husmanskost.",
       "position": {
         "lat": "55.61133",
         "long": "13.00281"
@@ -70,44 +49,14 @@
         "postCode": "21120",
         "city": "MALMÖ"
       },
-      "menuItems": [
-        {
-          "dish": "Rimmad oxbringa med rotsaker, smörad pepparrotsås & picklad kålrotssallad."
-        },
-        {
-          "dish": "Ångad sejfilé med bakat ägg, brynt smör, citron & spenat."
-        },
-        {
-          "dish": "Svampfyllt pastaknyte med ruccolapesto & parmesan."
-        }
-      ]
-    },
-    {
-      "id": "4",
-      "name": "Glasklart",
-      "emoji": "🥗",
-      "position": {
-        "lat": "55.61525",
-        "long": "12.99042"
-      },
-      "address": {
-        "street": "Dockplatsen 1",
-        "postCode": "21119",
-        "city": "MALMÖ"
-      },
-      "menuItems": [
-        {
-          "dish": "Köttfärslimpa med gräddsås, lingonsylt och pressgurka"
-        },
-        {
-          "dish": "Fylld röd paprika med kryddig bolognese på soyafärs, gratinerad med mozzarella, serveras med mild yoghurtsås"
-        }
-      ]
+      "menuItems": [],
+      "distance": "0.2"
     },
     {
       "id": "3",
       "name": "In The Pink",
       "emoji": "🍲",
+      "description": "Soppor och hotpots, ekologiskt och vegetariskt.",
       "position": {
         "lat": "55.61018",
         "long": "13.00015"
@@ -117,6 +66,7 @@
         "postCode": "21120",
         "city": "MALMÖ"
       },
+      "distance": "0.2",
       "menuItems": [
         {
           "dish": "Svampsoppa med grädde och färska örter toppad med knaperstekt bacon."
@@ -127,9 +77,27 @@
       ]
     },
     {
+      "id": "4",
+      "name": "Glasklart",
+      "emoji": "🥗",
+      "description": "Vanlig husmanskost.",
+      "position": {
+        "lat": "55.61525",
+        "long": "12.99042"
+      },
+      "address": {
+        "street": "Dockplatsen 1",
+        "postCode": "21119",
+        "city": "MALMÖ"
+      },
+      "distance": "0.7",
+      "menuItems": []
+    },
+    {
       "id": "5",
       "name": "MiaMarias",
       "emoji": "🥘",
+      "description": "Alltid tre rätter att välja mellan: fisk, kött, veg.",
       "position": {
         "lat": "55.61355",
         "long": "12.99189"
@@ -139,17 +107,8 @@
         "postCode": "21119",
         "city": "MALMÖ"
       },
-      "menuItems": [
-        {
-          "dish": "Kummel, krispig äppelsallad med fänkål och rädisor, pumpafrön, citronaioli."
-        },
-        {
-          "dish": "Vietnamesisk gryta med, limeblad, chili, curry, böngroddar, sockerärtor och kycklingköttbullar."
-        },
-        {
-          "dish": "Tortellini fylld med karljohansvamp . Serveras med sparrissås, spenat, smörstekta champinjoner och grana padano."
-        }
-      ]
+      "distance": "0.5",
+      "menuItems": []
     }
   ]
 }

@@ -36,6 +36,7 @@ const scrapePages = () => {
 // '0 5 * * *' every day at 05:00
 
 const scheduledScrape = () => {
+  scrapePages() //run it once every time server starts
   schedule.scheduleJob('0 5 * * *', () => {
     scrapePages()
   })
