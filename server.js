@@ -1,15 +1,14 @@
+const path = require('path')
 const express = require('express')
 
-const { db } = require('./lib/db/database')
+const db = require(path.join(__dirname, 'db/db.json')) //get that raw json babby
 const { scheduledScrape } = require('./cron')
 
 const app = express()
 
-const restaurantData = db.value()
-
 app.get('/', async (req, res) => {
   try {
-    res.send(restaurantData)
+    res.send(db)
   } catch (e) {
     res.status(400).send(e)
   }

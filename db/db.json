@@ -15,8 +15,8 @@
         "postCode": "21120",
         "city": "MALMÖ"
       },
-      "menuItems": [],
-      "distance": "0.08"
+      "distance": "0.08",
+      "menuItems": []
     },
     {
       "id": "6",
@@ -34,23 +34,6 @@
       },
       "distance": "0.5",
       "menuItems": []
-    },
-    {
-      "id": "2",
-      "name": "Slagthuset",
-      "emoji": "🍖",
-      "description": "Modern och närproducerad husmanskost.",
-      "position": {
-        "lat": "55.61133",
-        "long": "13.00281"
-      },
-      "address": {
-        "street": "Carlsgatan 12E",
-        "postCode": "21120",
-        "city": "MALMÖ"
-      },
-      "menuItems": [],
-      "distance": "0.2"
     },
     {
       "id": "3",
@@ -75,6 +58,23 @@
           "dish": "Kikärtgryta med spenat, tomat, vitlök, kokosgrädde, garam masala, chili och gurkmeja."
         }
       ]
+    },
+    {
+      "id": "2",
+      "name": "Slagthuset",
+      "emoji": "🍖",
+      "description": "Modern och närproducerad husmanskost.",
+      "position": {
+        "lat": "55.61133",
+        "long": "13.00281"
+      },
+      "address": {
+        "street": "Carlsgatan 12E",
+        "postCode": "21120",
+        "city": "MALMÖ"
+      },
+      "distance": "0.2",
+      "menuItems": []
     },
     {
       "id": "4",
