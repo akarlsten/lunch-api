@@ -18,6 +18,19 @@ const {
 //Basic logging
 const logStream = fs.createWriteStream(path.join(__dirname, 'log/log.txt'), { flags: 'a' })
 
+//webhook call
+const webhookCall = () => {
+  axios({
+    method: 'post',
+    url: 'https://api.netlify.com/build_hooks/5c967247036b78814b6488a6',
+    data: {}
+  })
+    .then(res =>
+      console.log(`Webhook sent - rebuilding frontend! ${res.statusText} - ${res.status}`)
+    )
+    .catch(error => console.log(error))
+}
+
 const scrapePages = () => {
   Promise.all([
     //wait for all the scraping to finish and update the db
@@ -31,15 +44,7 @@ const scrapePages = () => {
   ]).then(() => {
     logStream.write(`${moment().format('Y/M/D - HH:mm:ss')} - Database updated!\n`)
     console.log(`Database updated! At: ${moment().format('Y/M/D - HH:mm:ss')}`)
-    axios({
-      method: 'post',
-      url: 'https://api.netlify.com/build_hooks/5c967247036b78814b6488a6',
-      data: {}
-    })
-      .then(res =>
-        console.log(`Webhook sent - rebuilding frontend! ${res.statusText} - ${res.status}`)
-      )
-      .catch(error => console.log(error))
+    setTimeout(webhookCall, 5000)
   })
 }
 
@@ -47,7 +52,7 @@ const scrapePages = () => {
 
 const scheduledScrape = () => {
   scrapePages() //run it once every time server starts
-  schedule.scheduleJob('0 6,7,8,9,10,11 * * *', () => {
+  schedule.scheduleJob('0 6,8,10 * * *', () => {
     scrapePages()
   })
 }

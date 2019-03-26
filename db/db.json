@@ -1,5 +1,5 @@
 {
-  "date": "lördag, 23e mars",
+  "date": "tisdag, 26e mars",
   "restaurants": [
     {
       "id": "1",
@@ -16,7 +16,14 @@
         "city": "MALMÖ"
       },
       "distance": "0.08",
-      "menuItems": []
+      "menuItems": [
+        {
+          "dish": "Gravad Lax med dillstuvad potatis och hovmästarsås"
+        },
+        {
+          "dish": "Ostpanerad fläsk Noisette med ris, tomatsås och grönsaker"
+        }
+      ]
     },
     {
       "id": "6",
@@ -33,7 +40,26 @@
         "city": "MALMÖ"
       },
       "distance": "0.5",
-      "menuItems": []
+      "menuItems": [
+        {
+          "dish": "Bakad fläsksida, choucroute, chorizo, senap, persilja"
+        },
+        {
+          "dish": "Kåldolme, bakad silverlök, zucchini, rostad kålsky, hasselnöt (L)"
+        },
+        {
+          "dish": "Indisk linsgryta Dahl, yoghurt, papadum och ris"
+        },
+        {
+          "dish": "Kyckling curry masala, ris, yoghurt, pickles"
+        },
+        {
+          "dish": "Varmrökt regnbågslax, potatissallad, gröna ärtor, äggmajjo, dill, citron"
+        },
+        {
+          "dish": "Het räksoppa, glasnudlar, bakat ägg"
+        }
+      ]
     },
     {
       "id": "2",
@@ -50,7 +76,17 @@
         "city": "MALMÖ"
       },
       "distance": "0.2",
-      "menuItems": []
+      "menuItems": [
+        {
+          "dish": "Rostad Black Angus (oxe) med gremolata & bakade tomater."
+        },
+        {
+          "dish": "Bakad kolja med dillgurka, sotad schalottenlök, musselsås & senapsfrö."
+        },
+        {
+          "dish": "Rostad blomkålssoppa på kokosmjölk med crudite & picklad lök."
+        }
+      ]
     },
     {
       "id": "4",
@@ -67,7 +103,14 @@
         "city": "MALMÖ"
       },
       "distance": "0.7",
-      "menuItems": []
+      "menuItems": [
+        {
+          "dish": "Klassisk wallenbergare med gröna ärtor, potatispuré, lingon och skirat smör"
+        },
+        {
+          "dish": "Grönsaksfylld parmesangratinerad portabellosvamp med friterad klyftpotatis, palsternackschips och gräddig tomatsås"
+        }
+      ]
     },
     {
       "id": "3",
@@ -84,7 +127,14 @@
         "city": "MALMÖ"
       },
       "distance": "0.2",
-      "menuItems": []
+      "menuItems": [
+        {
+          "dish": "En vegansk morots- och apelsinssoppa toppad med mungbönor och marinerad vitkål."
+        },
+        {
+          "dish": "Brasiliansk fiskgryta toppad med basilika och säsongens gröna."
+        }
+      ]
     },
     {
       "id": "5",
@@ -101,7 +151,17 @@
         "city": "MALMÖ"
       },
       "distance": "0.5",
-      "menuItems": []
+      "menuItems": [
+        {
+          "dish": "Kolja med saffranssås, musslor och bakad spetskål."
+        },
+        {
+          "dish": "Kinesisk rödbrässerad karré (chili, sichuanpeppar, anis, kanel, soja). Serveras med fried rice och chilimajo."
+        },
+        {
+          "dish": "Asiatisk sötpotatisbiff med picklad gurka och jordnötssås samt pak choi."
+        }
+      ]
     }
   ]
 }
