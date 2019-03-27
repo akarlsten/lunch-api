@@ -1,14 +1,17 @@
 const path = require('path')
+const fs = require('fs')
 const express = require('express')
 
-const db = require(path.join(__dirname, 'db/db.json')) //get that raw json babby
 const { scheduledScrape } = require('./cron')
 
 const app = express()
 
 app.get('/', async (req, res) => {
   try {
-    res.send(db)
+    fs.readFile(path.join(__dirname, 'db/db.json'), (err, json) => {
+      const obj = JSON.parse(json)
+      res.json(obj)
+    })
   } catch (e) {
     res.status(400).send(e)
   }
