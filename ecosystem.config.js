@@ -6,7 +6,7 @@ module.exports = {
     exec_mode: "cluster",
     autorestart: true,
     watch: false,
-    ignore_watch: ["node_modules", "log", "db"]
+    ignore_watch: ["node_modules", "log", "db"],
     max_memory_restart: "200M",
     cron_restart: "0 6,7,8 * * *",
   }]
