@@ -52,9 +52,9 @@ const scrapePages = () => {
 
 const scheduledScrape = () => {
   scrapePages() //run it once every time server starts
-  schedule.scheduleJob('0 6,8,10 * * *', () => {
+/*  schedule.scheduleJob('0 6,8,10 * * *', () => {
     scrapePages()
-  })
+  }) */
 }
 
 module.exports = { scheduledScrape }
