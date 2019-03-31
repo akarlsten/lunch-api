@@ -12,7 +12,10 @@ const {
   scrapeInThePink,
   scrapeGlasklart,
   scrapeMiaMarias,
-  scrapeNiagara
+  scrapeNiagara,
+  scrapeSaltimporten,
+  scrapeValfarden,
+  scrapeKP
 } = require('./lib/scraper/scraper')
 
 //Basic logging
@@ -40,7 +43,10 @@ const scrapePages = () => {
     scrapeInThePink(),
     scrapeGlasklart(),
     scrapeMiaMarias(),
-    scrapeNiagara()
+    scrapeNiagara(),
+    scrapeSaltimporten(),
+    scrapeValfarden(),
+    scrapeKP()
   ]).then(() => {
     logStream.write(`${moment().format('Y/M/D - HH:mm:ss')} - Database updated!\n`)
     console.log(`Database updated! At: ${moment().format('Y/M/D - HH:mm:ss')}`)
@@ -52,7 +58,7 @@ const scrapePages = () => {
 
 const scheduledScrape = () => {
   scrapePages() //run it once every time server starts
-/*  schedule.scheduleJob('0 6,8,10 * * *', () => {
+  /*  schedule.scheduleJob('0 6,8,10 * * *', () => {
     scrapePages()
   }) */
 }

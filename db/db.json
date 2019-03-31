@@ -1,6 +1,23 @@
 {
-  "date": "fredag, 29e mars",
+  "date": "söndag, 31a mars",
   "restaurants": [
+    {
+      "id": "1",
+      "name": "Kolgas",
+      "emoji": "🚚",
+      "description": "\"Gedigen\" svensk husmanskost.",
+      "position": {
+        "lat": "55.61277",
+        "long": "12.99843"
+      },
+      "address": {
+        "street": "Hans Michelsensgatan 1C",
+        "postCode": "21120",
+        "city": "MALMÖ"
+      },
+      "distance": "0.08",
+      "menuItems": []
+    },
     {
       "id": "6",
       "name": "Niagara",
@@ -18,46 +35,87 @@
       "distance": "0.5",
       "menuItems": [
         {
-          "dish": "Nattbakad kalv, rostad vitlökssky, bakade morötter, salsa verde"
+          "dish": "Bakad fläsksida, choucroute, chorizo, senap, persilja"
         },
         {
-          "dish": "Tortelloni, ricotta, spenat, rostad rotselleri, tryffelgrädde (G, L)"
+          "dish": "Kåldolme, bakad silverlök, zucchini, rostad kålsky, hasselnöt (L)"
         },
         {
           "dish": "Indisk linsgryta Dahl, yoghurt, papadum och ris"
         },
         {
-          "dish": "Tonkatsu (panerad fläskkotlett) kimchimajonnäs, syrlig gurksallad, sesam (G)"
+          "dish": "Kyckling curry masala, ris, yoghurt, pickles"
         },
         {
-          "dish": "Niagaras ceasarsallad med kyckling, grana padano, grynsallad, tomat, romansallad (G, L)"
+          "dish": "Varmrökt regnbågslax, potatissallad, gröna ärtor, äggmajjo, dill, citron"
         },
         {
-          "dish": "Krämig svampsoppa, pickles, ostbröd (L)"
+          "dish": "Het räksoppa, glasnudlar, bakat ägg"
         }
       ]
     },
     {
-      "id": "1",
-      "name": "Kolgas",
-      "emoji": "🚚",
-      "description": "\"Gedigen\" svensk husmanskost.",
+      "id": "8",
+      "name": "Välfärden",
+      "emoji": "🥦",
+      "description": "Skånska råvaror, spexiga rätter, alltid vegetariska alternativ",
       "position": {
-        "lat": "55.61277",
-        "long": "12.99843"
+        "lat": "55.61129",
+        "long": "12.99416"
       },
       "address": {
-        "street": "Hans Michelsensgatan 1C",
+        "street": "Anckargripsgatan 3",
+        "postCode": "21119",
+        "city": "MALMÖ"
+      },
+      "distance": "0.4",
+      "menuItems": [
+        {
+          "dish": "Dillig färsbiff på kolja, serveras med brynt pepparrotssmör, syrlig sallad på stekt gurka, äpple, kapris, rödlök, samt potatismos."
+        },
+        {
+          "dish": "Tofu teriyaki med citrusrostad broccoli & sesam, serveras med ångande kryddris & kryddig syrad salladskål."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Slagthuset",
+      "emoji": "🍖",
+      "description": "Modern och närproducerad husmanskost.",
+      "position": {
+        "lat": "55.61133",
+        "long": "13.00281"
+      },
+      "address": {
+        "street": "Carlsgatan 12E",
         "postCode": "21120",
         "city": "MALMÖ"
       },
-      "distance": "0.08",
+      "distance": "0.2",
+      "menuItems": []
+    },
+    {
+      "id": "7",
+      "name": "Saltimporten",
+      "emoji": "🍝",
+      "description": "Lokalproducerat, lite fancy.",
+      "position": {
+        "lat": "55.61588",
+        "long": "12.99733"
+      },
+      "address": {
+        "street": "Grimsbygatan 24",
+        "postCode": "21120",
+        "city": "MALMÖ"
+      },
+      "distance": "0.4",
       "menuItems": [
         {
-          "dish": "Fläsk Noisette med bearnaisesås, potatis och grönsaker"
+          "dish": "Oxtartar / Jordärtskocka / Pistage / Rödlök"
         },
         {
-          "dish": "Gräddstuvad Pytt i Panna med rödbetor"
+          "dish": "Bovete / Kål / Gurka / Chili"
         }
       ]
     },
@@ -86,33 +144,6 @@
       ]
     },
     {
-      "id": "2",
-      "name": "Slagthuset",
-      "emoji": "🍖",
-      "description": "Modern och närproducerad husmanskost.",
-      "position": {
-        "lat": "55.61133",
-        "long": "13.00281"
-      },
-      "address": {
-        "street": "Carlsgatan 12E",
-        "postCode": "21120",
-        "city": "MALMÖ"
-      },
-      "distance": "0.2",
-      "menuItems": [
-        {
-          "dish": "Kryddig chiligryta på högrev med smetana, majschips & koriander."
-        },
-        {
-          "dish": "Ångad spättafile med het buljong, rödbeta & rättika."
-        },
-        {
-          "dish": "Vegetarisk chili med smetana, majschips & koriander."
-        }
-      ]
-    },
-    {
       "id": "4",
       "name": "Glasklart",
       "emoji": "🥗",
@@ -129,10 +160,10 @@
       "distance": "0.7",
       "menuItems": [
         {
-          "dish": "Klassisk fläskschnitzel med friterad potatis, skysås, bearnaisesås, citron och gröna ärtor"
+          "dish": "Klassisk wallenbergare med gröna ärtor, potatispuré, lingon och skirat smör"
         },
         {
-          "dish": "Grönsaksfylld parmesangratinerad portabellosvamp med friterad klyftpotatis, palsternackschips och gräddig tomatsås"
+          "dish": "Rödbetsbiffar med rostad blomkål, svaoykål och fetaostcremé och friterad potatis"
         }
       ]
     },
@@ -153,13 +184,13 @@
       "distance": "0.5",
       "menuItems": [
         {
-          "dish": "Fiskbiffar med dillsmakande coleslaw och rostade rotfrukter."
+          "dish": "Panerad spätta med remouladsås och sallad på rostade morötter/ärtor."
         },
         {
-          "dish": "Långkok på högrev med selleri, rött vin, tomat och vitlök. Serveras med risotto och gremolata."
+          "dish": "Högrevsgryta med champinjoner, enbär och rotfrukter. Serveras med rostad potatis och svartvinbärsgelé."
         },
         {
-          "dish": "Krämig gnocchi med broccoli, ärtor och grana padano."
+          "dish": "Koreanskt smakande quornfärs. Serveras med krispig rödkål, ris och stekt ägg."
         }
       ]
     }
