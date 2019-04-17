@@ -45,7 +45,7 @@ const scrapePages = () => {
     scrapeMiaMarias(),
     scrapeNiagara(),
     scrapeSaltimporten(),
-    scrapeValfarden(),
+    //scrapeValfarden(),
     scrapeKP()
   ]).then(() => {
     logStream.write(`${moment().format('Y/M/D - HH:mm:ss')} - Database updated!\n`)
