@@ -43,7 +43,7 @@ const scrapePages = () => {
     scrapeInThePink(),
     scrapeGlasklart(),
     scrapeMiaMarias(),
-    scrapeNiagara(),
+    //scrapeNiagara(),
     scrapeSaltimporten(),
     //scrapeValfarden(),
     scrapeKP()
